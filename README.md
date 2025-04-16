@@ -26,7 +26,7 @@ requires you to have the application installed on your computer to open the file
 
 [AnkiCards](https://apps.ankiweb.net/) is a flashcard program avaible for free on computers and $30 on mobile devices. It is a tool that I've been usign to cram for my exams.
 
-It is a great tool to practice **Active Recall** and **Spaced Repetition**. It is a great tool to help you learn and retain information. Or to cram last minute for an exam, like I am doing right now :)
+It is a great tool to practice **Active Recall** and **Spaced Repetition**. Or to cram last minute for an exam, like I am doing right now :)
 
 ## What is AnkiCardGenerations?
 
