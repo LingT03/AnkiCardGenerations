@@ -150,6 +150,111 @@
       ],
       "correct_answer": "To have real-time knowledge of the current load of each resource",
       "explanation": "Dynamic load balancers continually monitor server loads, connections, or response times to make smarter routing decisions."
+    },
+    {
+      "question": "What is serverless computing?",
+      "choices": [
+        "Computing without servers",
+        "A model of computation where resources are automatically allocated by the cloud provider",
+        "A type of physical server",
+        "A local computing model"
+      ],
+      "correct_answer": "A model of computation where resources are automatically allocated by the cloud provider",
+      "explanation": "Serverless computing abstracts away server management—resources are provisioned on demand by the cloud provider, so developers focus only on code."
+    },
+    {
+      "question": "What is another term for serverless computing?",
+      "choices": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)",
+        "Function as a Service (FaaS)"
+      ],
+      "correct_answer": "Function as a Service (FaaS)",
+      "explanation": "Serverless architectures are often called FaaS because individual functions are deployed and run without managing servers."
+    },
+    {
+      "question": "Which of the following is NOT an advantage of serverless computing?",
+      "choices": [
+        "No servers to manage",
+        "Easy pricing based on executions and CPU time",
+        "Maximum execution time limitations",
+        "Automatic scaling"
+      ],
+      "correct_answer": "Maximum execution time limitations",
+      "explanation": "Execution time limits (e.g., 15 minutes in AWS Lambda) are constraints, not benefits, making them a disadvantage."
+    },
+    {
+      "question": "How are customers (normally) billed in serverless computing?",
+      "choices": [
+        "Monthly subscription",
+        "During the time their code is executed",
+        "Number of servers used",
+        "Flat rate per function"
+      ],
+      "correct_answer": "During the time their code is executed",
+      "explanation": "Billing is usage‑based—seconds of execution and resources consumed—rather than fixed server counts or flat subscriptions."
+    },
+    {
+      "question": "What is a Lambda function?",
+      "choices": [
+        "A tiny function deployed in serverless computing",
+        "A type of server",
+        "A program language",
+        "A cloud storage service"
+      ],
+      "correct_answer": "A tiny function deployed in serverless computing",
+      "explanation": "AWS Lambda lets you run small, event‑driven functions without provisioning or managing servers."
+    },
+    {
+      "question": "Which of the following is a disadvantage of serverless computing?",
+      "choices": [
+        "No servers to manage",
+        "Easy pricing",
+        "Automatic scaling",
+        "Harder to test/debug"
+      ],
+      "correct_answer": "Harder to test/debug",
+      "explanation": "Because infrastructure is abstracted away and functions are event‑driven, replicating the environment locally can be challenging for testing and debugging."
+    },
+    {
+      "question": "What does synchronous invocation mean?",
+      "choices": [
+        "The callee waits for the response",
+        "The callee doesn’t wait for the response",
+        "The function is triggered by an event",
+        "The function runs indefinitely"
+      ],
+      "correct_answer": "The callee waits for the response",
+      "explanation": "With synchronous invocation, the caller blocks until the function finishes and returns a result."
+    },
+    {
+      "question": "Which of the following is an example of a trigger for a Lambda function?",
+      "choices": [
+        "A scheduled event",
+        "A new object uploaded to an S3 bucket",
+        "An HTTP request from an API",
+        "All of the above"
+      ],
+      "correct_answer": "All of the above",
+      "explanation": "Lambda can be triggered by many sources, including scheduled events (CloudWatch), S3 object uploads, or API Gateway HTTP requests."
+    },
+    {
+      "question": "What is the event object in serverless computing (in AWS)?",
+      "choices": [
+        "A JSON-formatted document containing data for a lambda function",
+        "A physical server",
+        "A programming language",
+        "A cloud storage service"
+      ],
+      "correct_answer": "A JSON-formatted document containing data for a lambda function",
+      "explanation": "When Lambda is invoked, AWS passes the triggering data as a JSON event object to the function handler."
+    },
+    {
+      "question": "What is the current maximum execution time set by AWS for Lambda functions in minutes?",
+      "choices": ["5", "10", "15", "30"],
+      "correct_answer": "15",
+      "explanation": "As of 2024, AWS Lambda allows a maximum execution timeout of 900 seconds (15 minutes) per invocation."
     }
   ]
 }
