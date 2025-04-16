@@ -26,3 +26,10 @@ python3 makecards.py <deckname> <json_file>
 # What is AnkiCardGenerations?
 
 The following script is a tool that I created to help me generate Anki cards from a JSON file with the [Genanki](https://pypi.org/project/genanki/) package.
+
+### Future Plans
+
+- [ ] Integrate OPENAI API to generate cards from PDF
+- [ ] Add support for images
+- [ ] Use OPENAI API to generate questions and answers
+- [ ] Add styling to cards
