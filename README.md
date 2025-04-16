@@ -19,6 +19,8 @@ python3 makecards.py <deckname> <json_file>
 
 `deckname`.apkg
 
+requires you to have the application installed on your computer to open the file.
+
 ## What is AnkiCards?
 
 [AnkiCards](https://apps.ankiweb.net/) is a flashcard program avaible for free on computers and $30 on mobile devices. It is a tool that I've been usign to cram for my exams.
