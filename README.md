@@ -28,13 +28,13 @@ requires you to have the application installed on your computer to open the file
 
 It is a great tool to practice **Active Recall** and **Spaced Repetition**. It is a great tool to help you learn and retain information. Or to cram last minute for an exam, like I am doing right now :)
 
-# What is AnkiCardGenerations?
+## What is AnkiCardGenerations?
 
 The following script is a tool that I created to help me generate Anki cards from a JSON file with the [Genanki](https://pypi.org/project/genanki/) package.
 
 ### Future Plans
 
 - [ ] Integrate OPENAI API to generate cards from PDF
-- [ ] Add support for images
 - [ ] Use OPENAI API to generate questions and answers
-- [ ] Add styling to cards
+- [ ] Add support for images
+- [ ] Add styling to cards (optional just for fun)
