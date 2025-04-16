@@ -1,7 +1,8 @@
 # AnkiCardGenerations
 
 _Author : Ling Thang_
-_Last Updated : 2023-10-08_
+
+_Last Updated : 04/16/2025_
 
 **Requires**
 
